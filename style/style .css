@@ -1,0 +1,1062 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  background: #f5f7fb;
+  color: #0f172a;
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.nav-links a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #1e293b;
+  font-weight: 500;
+}
+
+.btn {
+  padding: 10px 18px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-dark {
+  background: #0f172a;
+  color: #fff;
+  text-decoration: none;
+}
+
+/* HERO */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 90px;
+  gap: 40px;
+}
+
+.hero-text h4 {
+    background: #eeeef6;
+    padding: 15px;
+    font-size: 14px;
+    margin-bottom: 40px;
+    border-radius: 30px;
+    display:inline-block;
+    font-weight: 500;
+}
+
+.hero-text h1 {
+  font-size: 65px;
+  margin-bottom: 40px;
+  font-weight: 700;
+}
+
+.hero-text h1 span {
+  color: #2563eb;
+}
+
+.hero-text h3 {
+    line-height: 30px;
+    font-size:16px;
+    font-weight: 400;
+}
+
+.hero-text p {
+  margin: 20px 0;
+  color: #475569;
+  line-height: 1.6;
+  font-size: 15px;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 15px;
+  margin-top: 50px;
+}
+
+.btn-primary {
+  background: #2563eb;
+  color: white;
+  text-decoration: none;
+}
+
+.btn-outline {
+  border: 1px solid #cbd5e1;
+  background: white;
+}
+
+/* IMAGE */
+.hero-img {
+  width: 400px;
+  border-radius: 20px;
+}
+
+/* CARDS */
+.cards {
+  display: flex;
+  gap: 20px;
+  margin: 100px 0;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 16px;
+  flex: 1;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+}
+
+.card h3 {
+  margin-bottom: 20px;
+}
+
+.card p {
+    line-height: 25px;
+}
+
+
+
+
+/* ABOUTME */
+
+.aboutme-section {
+  padding: 80px 20px;
+  background: #ffffff;
+  font-family: sans-serif;
+  width: 100%;
+  width: 100vw;              /* paksa selebar viewport */
+  margin-left: calc(-50vw + 50%); /* tarik ke kiri */
+  margin-right: calc(-50vw + 50%); /* tarik ke kanan */
+}
+
+.aboutme-container {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+/* LEFT */
+.aboutme-left {
+  flex: 1;
+}
+
+.aboutme-label {
+  color: #3b82f6;
+  font-weight: 600;
+  margin-bottom: 40px;
+  font-size: 14px;
+}
+
+.aboutme-title {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  line-height: 1.3;
+}
+
+.aboutme-title span {
+  color: #3b82f6;
+}
+
+.aboutme-desc {
+  color: #6b7280;
+  margin-bottom: 25px;
+  line-height: 1.6;
+}
+
+.aboutme-list {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 25px;
+}
+
+.aboutme-list ul {
+  padding: 0;
+  list-style: none;
+}
+
+.aboutme-list li {
+  margin-bottom: 10px;
+  color: #374151;
+}
+
+.aboutme-btn {
+  padding: 12px 20px;
+  border: 2px solid #3b82f6;
+  background: transparent;
+  color: #3b82f6;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+  text-decoration: none;
+}
+
+.aboutme-btn:hover {
+  background: #3b82f6;
+  color: #fff;
+}
+
+/* RIGHT */
+.aboutme-right {
+  flex: 1;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.aboutme-image img {
+  width: 300px;
+  border-radius: 16px;
+}
+
+/* CARD */
+.aboutme-card {
+  position: absolute;
+  right: -40px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #fff;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+  width: 220px;
+}
+
+.aboutme-item {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.aboutme-item p {
+  margin: 0;
+  font-size: 12px;
+  color: #6b7280;
+}
+
+.aboutme-item strong {
+  font-size: 14px;
+}
+
+
+
+
+
+
+/* PROJECTS */
+.projects {
+  margin-top: 80px;
+}
+
+.projects-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.label {
+  color: #3b82f6;
+  font-size: 12px;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+
+.projects-header h2 {
+  font-size: 32px;
+  margin-top: 5px;
+}
+
+.view-all {
+  color: #334155;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+/* GRID */
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 35px;
+  margin-top: 50px;
+}
+
+/* CARD */
+.project-card {
+  background: white;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+  transition: 0.3s;
+}
+
+.project-card .link {
+  display: block;
+  padding-top: 15px;
+  border-top: 1px solid #e2e8f0; /* garis tipis */
+  color: #2563eb;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+.project-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.project-card .content {
+  padding: 20px;
+}
+
+.project-card h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.project-card p {
+  color: #64748b;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+/* TAGS */
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 15px;
+}
+
+.tags span {
+  background: #f1f5f9;
+  padding: 6px 10px;
+  border-radius: 8px;
+  font-size: 12px;
+}
+
+/* LINK */
+.link {
+  color: #2563eb;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+/* RESPONSIVE */
+@media(max-width: 900px) {
+  .project-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+
+
+
+
+
+/* WHY FREELANCE WITH ME */
+
+#whyfreelance {
+  padding: 80px 0px;
+  margin-top: 90px;
+  background: #ffffff;
+  font-family: Arial, sans-serif;
+  width: 100vw;              /* paksa selebar viewport */
+  margin-left: calc(-50vw + 50%); /* tarik ke kiri */
+  margin-right: calc(-50vw + 50%); /* tarik ke kanan */
+}
+
+.whyfreelance-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.whyfreelance-header {
+  margin-bottom: 50px;
+}
+
+.whyfreelance-header h2 {
+  font-size: 36px;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.whyfreelance-header p {
+  color: #666;
+  font-size: 18px;
+}
+
+.whyfreelance-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+.whyfreelance-card {
+  background: #fff;
+  padding: 25px;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+  position: relative;
+  opacity: 1;
+  transform: none;
+  transition: all 0.5s ease;
+}
+
+.whyfreelance-card.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.whyfreelance-number {
+  color: #2f5cff;
+  font-weight: bold;
+  font-size: 20px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.whyfreelance-card h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.whyfreelance-card p {
+  color: #666;
+  line-height: 1.6;
+  font-size: 15px;
+}
+
+
+/* Responsive */
+@media (max-width: 900px) {
+  .whyfreelance-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .whyfreelance-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+
+
+
+
+
+
+/* PRICING */
+
+#pricing {
+  background: #0b0b0f;
+
+  /* FULL WIDTH BREAKOUT */
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+  margin-right: calc(-50vw + 50%);
+
+  /* spacing atas bawah */
+  padding: 80px 20px;
+}
+
+.pricing-container {
+  max-width: 1100px;
+  margin: auto;
+}
+
+/* HEADER */
+.pricing-header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.pricing-header h2 {
+  font-size: 36px;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.pricing-header p {
+  color: #9ca3af;
+}
+
+/* GRID */
+.pricing-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px;
+}
+
+/* CARD */
+.pricing-card {
+  border-radius: 16px;
+  padding: 30px;
+  background: #1a1a1f;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* PREMIUM STYLE */
+.pricing-premium {
+  background: #2f5cff;
+}
+
+/* LABEL */
+.pricing-label {
+  font-weight: 600;
+  margin-bottom: 15px;
+  display: inline-block;
+  color: #fff;
+}
+
+/* TEXT */
+.pricing-card h3 {
+  font-size: 26px;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.pricing-sub {
+  color: #cbd5e1;
+  margin-bottom: 20px;
+}
+
+/* LIST */
+.pricing-list {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.pricing-col {
+  flex: 1;
+}
+
+.pricing-list-title {
+  font-size: 13px;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+.pricing-list li {
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #d1d5db;
+  list-style: none;
+}
+
+/* FOOTER */
+.pricing-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid rgba(255,255,255,0.1);
+  padding-top: 20px;
+}
+
+.pricing-footer h4 {
+  font-size: 40px;
+  font-weight: 600;
+  color: #fff;
+}
+
+/* BUTTON */
+.pricing-btn {
+  padding: 10px 18px;
+  border-radius: 8px;
+  border: none;
+  background: white;
+  color: black;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.pricing-btn-white {
+  background: white;
+  color: #2f5cff;
+}
+
+/* NOTE */
+.pricing-note {
+  text-align: center;
+  margin-top: 40px;
+  color: #9ca3af;
+}
+
+/* PAYMENT */
+.pricing-payment {
+  margin-top: 80px;
+  color: #ffffff;
+  line-height: 1.6;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .pricing-cards {
+    grid-template-columns: 1fr;
+  }
+
+  .pricing-list {
+    flex-direction: column;
+  }
+}
+
+
+
+/* END PRICING */
+
+
+
+
+
+
+
+/* HOW IT WORKS */
+
+
+#howitwork {
+  padding: 80px 20px;
+  background: #f5f7fb;
+}
+
+.howitwork-container {
+  max-width: 1100px;
+  margin: auto;
+  display: flex;
+  gap: 60px;
+}
+
+/* LEFT */
+.howitwork-left {
+  flex: 1;
+}
+
+.howitwork-label {
+  font-size: 14px;
+  margin-bottom: 20px;
+  color: #6b7280;
+}
+
+.howitwork-left h2 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+/* RIGHT */
+.howitwork-right {
+  flex: 1.2;
+}
+
+/* ITEM */
+.howitwork-item {
+  border-bottom: 1px solid #ddd;
+  padding: 20px 0;
+}
+
+/* HEADER */
+.howitwork-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+/* ICON */
+.howitwork-icon {
+  transition: transform 0.3s ease;
+}
+
+/* CONTENT */
+.howitwork-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.4s ease;
+}
+
+.howitwork-content p {
+  margin-top: 15px;
+  color: #555;
+  line-height: 1.6;
+  font-size: 15px;
+}
+
+/* ACTIVE */
+.howitwork-item.active .howitwork-content {
+  max-height: 200px;
+}
+
+.howitwork-item.active .howitwork-icon {
+  transform: rotate(180deg);
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+  .howitwork-container {
+    flex-direction: column;
+  }
+
+  .howitwork-left h2 {
+    font-size: 36px;
+  }
+}
+
+
+
+/* END HOW IT WORKS */
+
+
+
+/* TECH STACK */
+#footerandfriend {
+  background: #ffffff;
+  padding-top: 80px;
+  position: relative;
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+  margin-right: calc(-50vw + 50%);
+}
+
+/* TESTIMONIAL */
+.footerandfriend-testimonial {
+  text-align: center;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.footerandfriend-testimonial h2 {
+  font-size: 36px;
+}
+
+.footerandfriend-sub {
+  color: #6b7280;
+  margin: 15px 0 40px;
+}
+
+.footerandfriend-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.footerandfriend-card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: left;
+  border: 1px solid #e5e7eb;
+}
+
+.quote {
+  font-size: 30px;
+  color: #2f5cff;
+}
+
+.footerandfriend-card p {
+  margin: 10px 0;
+  color: #374151;
+}
+
+.footerandfriend-card small {
+  color: #6b7280;
+}
+
+/* CTA */
+.footerandfriend-cta {
+  background: #2f5cff;
+  color: white;
+  padding: 40px;
+  border-radius: 16px;
+  text-align: center;
+  max-width: 900px;
+  margin: 80px auto -60px;
+  position: relative;
+  z-index: 2;
+}
+
+.footerandfriend-cta h2 {
+  margin-bottom: 20px;
+}
+
+.footerandfriend-cta-btns {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.footerandfriend-cta button {
+  padding: 10px 18px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.footerandfriend-cta .primary {
+  background: white;
+}
+
+.footerandfriend-cta .outline {
+  background: transparent;
+  border: 1px solid white;
+  color: white;
+}
+
+/* FOOTER */
+.footerandfriend-footer {
+  background: #0b0b0f;
+  color: white;
+  padding: 100px 20px 60px;
+}
+
+.footerandfriend-container {
+  max-width: 1100px;
+  margin: auto;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.footerandfriend-left h3 {
+  margin-bottom: 50px;
+  font-size: 40px;
+}
+
+.footerandfriend-left h4 {
+  margin-bottom: 15px;
+}
+
+.footerandfriend-left p {
+  color: #9ca3af;
+}
+
+.footerandfriend-email {
+  margin-top: 10px;
+}
+
+.footerandfriend-col h4 {
+  margin-bottom: 10px;
+}
+
+.footerandfriend-col p a {
+  color: #9ca3af;
+  text-decoration: none;
+}
+
+/* RESPONSIVE */
+@media(max-width: 900px) {
+  .footerandfriend-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .footerandfriend-container {
+    flex-direction: column;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* responsive */
+
+/* =========================
+   GLOBAL MOBILE FIX
+========================= */
+@media (max-width: 768px) {
+
+  .container {
+    padding: 0 20px;
+  }
+
+  /* NAVBAR */
+  .navbar {
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+  }
+
+  .nav-links {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  /* HERO */
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    margin-top: 40px;
+  }
+
+  .hero-text h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+
+  .hero-text h3 {
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .hero-buttons {
+    justify-content: center;
+  }
+
+  .hero-img {
+    width: 100%;
+    max-width: 280px;
+    margin-top: 30px;
+  }
+
+  /* CARDS */
+  .cards {
+    flex-direction: column;
+    margin: 60px 0;
+  }
+
+  /* ABOUT */
+  .aboutme-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .aboutme-list {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .aboutme-right {
+    justify-content: center;
+  }
+
+  .aboutme-image img {
+    width: 220px;
+  }
+
+  .aboutme-card {
+    position: static;
+    transform: none;
+    margin-top: 20px;
+    width: 100%;
+  }
+
+  /* PROJECT */
+  .projects-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  /* PRICING */
+  .pricing-footer {
+    flex-direction: column;
+    gap: 15px;
+    align-items: flex-start;
+  }
+
+  .pricing-footer h4 {
+    font-size: 32px;
+  }
+
+  /* HOW IT WORKS */
+  .howitwork-header {
+    font-size: 18px;
+  }
+
+  /* CTA */
+  .footerandfriend-cta {
+    padding: 30px 20px;
+  }
+
+  /* FOOTER */
+  .footerandfriend-left h3 {
+    font-size: 28px;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* responsive */
+
+@media (max-width: 480px) {
+
+  .hero-text h1 {
+    font-size: 30px;
+  }
+
+  .hero-text h3 {
+    font-size: 13px;
+  }
+
+  .pricing-card {
+    padding: 20px;
+  }
+
+  .pricing-footer h4 {
+    font-size: 28px;
+  }
+
+}
